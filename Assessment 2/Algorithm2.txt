@@ -1,0 +1,31 @@
+***************** Algorithm to setup the main menu *****************
+
+studentInfo is an array list of student datails and marks
+Select the index:
+	1. Enter 1 to display Student details and Marks 
+        2. Enter 2 to display total assignment marks of all the students
+        3. Enter 3 to display the list of total marks less than the certain threshold 
+        4. Enter 4 to diaplay the top 10 and lowest 10 student marks
+        5. Enter 0 to exit the menu 
+
+Read the console input enter by the using -->id
+
+if id == 1
+	for each value in studentInfo 
+		print value
+else if id == 2
+	for each value in studentInfo 
+		print value + total marks
+else if id == 3
+	Enter threshold value -->th_value
+	for each value in studentInfo 
+		if (total marks < th_value)
+			print value
+else if id == 4
+	Use algorithm1 (attached in the project)
+	print top 10 student marks
+	print lowest 10 student marks
+else if id==0
+	exit the menu
+else
+	Enter valid main menu id

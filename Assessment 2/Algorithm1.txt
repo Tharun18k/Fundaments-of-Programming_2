@@ -1,0 +1,27 @@
+***************** Algorithm to print first 10 highest and last 10 Lowest student details and marks *****************
+
+studentInfo is an array list of student datails and marks
+
+list_len = studentInfo.size()
+
+//Sorting the List based on Total Marks
+for i in range(0, list_len)
+	for j in range(i+1,list_len)
+		tempi = studentInfo.get(i)
+		tempj = studentInfo.get(j);
+		if(tempI.getTotalMarks() > tempJ.getTotalMarks())
+                    studentInfo.set(i,tempJ);
+                    studentInfo.set(j,tempI);
+
+//Displaying Top 10 students list
+k=0
+i=studentInfo.size()  
+while k<10
+	print  studentInfo.get(i-1)
+	k==
+	i--
+
+//Displaying last 10 students list
+
+for i in range (0,10)
+	print studentInfo.get(i)       
